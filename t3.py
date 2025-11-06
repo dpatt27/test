@@ -14,7 +14,7 @@ df2 = pd.DataFrame(np.random.randn(500,2)/[50, 50] + [30.5, -97.6], columns=["la
 st.map(df2)
 
 
-st.video("/Users/danielpatterson/Downloads/#8 GRAND SLAM.mp4")
+st.video("https://www.youtube.com/watch?v=3pJNTJfDh90")
 
 st.checkbox("this is a checkbox")
 st.button("Select")
