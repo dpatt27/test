@@ -24,6 +24,3 @@ if app_mode == 'Home':
     st.bar_chart(data[['income_annum', 'loan_amount']].head(20))
     print(data.columns) # to see the columns in the terminal
     st.write(data.columns) #to see the columns in the browsers
-
-elif app_mode == 'Predict':
-
